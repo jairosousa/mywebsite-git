@@ -84,3 +84,51 @@ nothing added to commit but untracked files present (use "git add" to track)
 ### Todos no diretório
 
 Pode usar dois comando `$ git add --all` ou `$ git add .` este ultimo o mais usado.
+
+```
+$ git add .
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+```
+
+```
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   git.zip
+        new file:   hamburger.jpg
+        new file:   index.html
+        new file:   tablesetting.jpg
+        new file:   tablesetting2.jpg
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+```
+* Nesse estagio todos os arquivos estão prontos para o commit
+
+# Commit
+
+Verifica todos os arquivos que estão no status staged e vai criar uma versão desses arquivos, vai tirar um snapshot.
+
+```
+$ git commit -m "Primeiro commit - Todos arquivos inclusos"
+[main (root-commit) 2fd06bc] Primeiro commit - Todos arquivos inclusos
+ 6 files changed, 195 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 git.zip
+ create mode 100644 hamburger.jpg
+ create mode 100644 index.html
+ create mode 100644 tablesetting.jpg
+ create mode 100644 tablesetting2.jpg
+```
+
+```
+
+```
