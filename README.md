@@ -128,7 +128,7 @@ $ git commit -m "Primeiro commit - Todos arquivos inclusos"
  create mode 100644 tablesetting.jpg
  create mode 100644 tablesetting2.jpg
 ```
-
+resolver problema
 ```
 
 ```
